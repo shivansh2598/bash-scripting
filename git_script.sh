@@ -5,5 +5,4 @@ echo "enter commit message"
 read msg
 git commit -m "$msg"
 git push -u origin master
-clear
 echo "git push handled successfully"
