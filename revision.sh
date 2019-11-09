@@ -1,5 +1,17 @@
 #!/bin/bash
 
-SERVER=$(hostname)
+read -p "Enter Your Name: " USER
+echo "Welcome ${USER}"
+read -p "Do you want us to check your system for updates and automatically upgrade your system (Y or N): " RES
 
-echo "You are running this script on ${SERVER}."
+if [ "${RES}" == "Y" ]
+then
+    sudo apt-get update -y
+    sudo apt-get upgrade -y
+    sudo apt autoremove
+else
+    echo "Thank you ${USER}, We hope to see you again"
+    echo "Byee"
+fi
+
+
