@@ -1,0 +1,4 @@
+#!/bin/bash
+
+cd /Desktop/selenium
+node "/home/alpha/Desktop/selenium/server.js"
