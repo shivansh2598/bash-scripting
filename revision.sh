@@ -9,6 +9,13 @@ then
     sudo apt-get update -y
     sudo apt-get upgrade -y
     sudo apt autoremove
+    if [ $? -eq 0 ]
+    then
+        echo "System updated successfully"
+    else
+        echo "System update failed"
+        exit 1
+    fi
 else
     echo "Thank you ${USER}, We hope to see you again"
     echo "Byee"
