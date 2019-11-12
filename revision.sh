@@ -8,7 +8,7 @@ if [ "${RES}" == "Y" ]
 then
     sudo apt-get update -y
     sudo apt-get upgrade -y
-    sudo apt autoremove
+    sudo apt autoremove -y
     if [ $? -eq 0 ]
     then
         echo "System updated successfully"
