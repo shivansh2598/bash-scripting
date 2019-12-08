@@ -1,0 +1,15 @@
+Script started on 2019-12-08 21:29:20+0530
+]0;alpha@alpha-HP-Pavilion-Notebook: ~[01;32malpha@alpha-HP-Pavilion-Notebook[00m:[01;34m~[00m$ geddit tupe[K[K[Kypescript
+
+Command 'geddit' not found, did you mean:
+
+  command 'gedit' from snap gedit (3.34.0+git15.9a0dbede2)
+  command 'gedit' from deb gedit
+
+See 'snap info <snapname>' for additional versions.
+
+]0;alpha@alpha-HP-Pavilion-Notebook: ~[01;32malpha@alpha-HP-Pavilion-Notebook[00m:[01;34m~[00m$ geddit typescript[1P
+]0;alpha@alpha-HP-Pavilion-Notebook: ~[01;32malpha@alpha-HP-Pavilion-Notebook[00m:[01;34m~[00m$ exit
+exit
+
+Script done on 2019-12-08 21:29:52+0530
