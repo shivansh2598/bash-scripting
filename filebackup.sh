@@ -14,7 +14,7 @@ function backup_file()
 	fi
 }
 
-read -p "Please enter the file whose backup is to be made: " FILE
+read -p "Please enter the file whose backup is to be made or press ctrl+c to exit: " FILE
 backup_file $FILE
 
 if [ $? -eq 0 ]
